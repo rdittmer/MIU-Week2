@@ -16,10 +16,11 @@
 <body>
 <div data-role="page" id="index">
   <div data-role="header">
-    <h1>Tee Time Tracker</h1>
+    <h1>Tee Time Tracker - Gold</h1>
   </div>
   <div data-role="content"></div>
   <a href="additem.html" data-ajax="false"><img src="img/golf1.png" align="absmiddle" hspace="15%"/></a>
+  <a href="newsStream" data-role="button" data-inset="true">Upcoming Tee Times</a>
   <div data-role="fieldcontain">
     <input type="search" name="searchInput" id="searchInput" value=""/>
   </div>
@@ -202,6 +203,35 @@
 	</div>
 
   </div>
+
+</ul>
+
+<ul data-role="page" id="newsStream">
+	<div data-role="header" data-backbtn="true">
+		<h1>Upcoming Tee Times</h1>
+	</div>
+    
+    <div data-role="content">
+    	<ul data-role="listview" id="oneWindowList" data-inset="false" data-filter="true">
+   	    <li data-role="list-divider" data-backbtn="true"><h1>Name - Game Date</h1></li>
+   	    <li data-icon="info"><h2>Tim Caldwell - 06/02/2012</h2><a href="#comingSoon"></a></li>
+    	<li data-icon="info"><h2>Berry Igram - 06/03/2012</h2><a href="#comingSoon"></a></li>
+        <li data-icon="info"><h2>Will Crameck - 06/05/2012</h2><a href="#comingSoon"></a></li>
+    	</ul>
+    </div>
+    
+    <div data-role="footer" data-position="fixed">
+	<h1>  </h1>
+    <div data-role="navbar">
+		<ul>
+			<li><a href="index.html" class="ui-btn-active" data-ajax="false">Home</a></li>
+			<li><a href="/Documents/MIUv2/Week2/Bronze/index.html">Bronze App</a></li>
+            <li><a href="#">Gh-Pages</a></li>
+		</ul>
+	</div>
+
+  </div>
+
 
 </ul>
 

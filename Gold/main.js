@@ -207,7 +207,7 @@ window.addEventListener( "DOMContentLoaded", function(){
 		
 		if ( getReservist.value === "" )
 		{
-			var reservistError            = "Please enter a reservsit name.";
+			var reservistError            = "Please enter a reservist name.";
 			getReservist.style.border = "1px solid red";
 			messageArray.push( reservistError );
 		}
